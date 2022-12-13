@@ -1,0 +1,568 @@
+[
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-IMAGE-NAME:debian"
+            },
+            {
+                "children": [],
+                "type": "DOCKER-IMAGE-TAG:buster-slim"
+            }
+        ],
+        "type": "DOCKER-FROM"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "type": "SC-SET-F-E"
+                            },
+                            {
+                                "children": [],
+                                "type": "SC-SET-F-U"
+                            },
+                            {
+                                "children": [],
+                                "type": "SC-SET-F-X"
+                            }
+                        ],
+                        "type": "SC-SET"
+                    },
+                    {
+                        "children": [],
+                        "type": "SC-APT-GET-UPDATE"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "type": "SC-APT-GET-F-YES"
+                            },
+                            {
+                                "children": [],
+                                "type": "SC-APT-GET-F-NO-INSTALL-RECOMMENDS"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "type": "SC-APT-GET-PACKAGE:CA-CERTIFICATES"
+                                    },
+                                    {
+                                        "children": [],
+                                        "type": "SC-APT-GET-PACKAGE:WGET"
+                                    },
+                                    {
+                                        "children": [],
+                                        "type": "SC-APT-GET-PACKAGE:APT-TRANSPORT-HTTPS"
+                                    },
+                                    {
+                                        "children": [],
+                                        "type": "SC-APT-GET-PACKAGE:RPM"
+                                    },
+                                    {
+                                        "children": [],
+                                        "type": "SC-APT-GET-PACKAGE:YUM-UTILS"
+                                    }
+                                ],
+                                "type": "SC-APT-GET-PACKAGES"
+                            }
+                        ],
+                        "type": "SC-APT-GET-INSTALL"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "type": "SC-RM-F-RECURSIVE"
+                            },
+                            {
+                                "children": [],
+                                "type": "SC-RM-F-FORCE"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "type": "ABS-MAYBE-PATH",
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "type": "ABS-APT-LISTS",
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "type": "ABS-PATH-VAR",
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "type": "ABS-PATH-ABSOLUTE",
+                                                                "children": []
+                                                            }
+                                                        ],
+                                                        "type": "BASH-LITERAL"
+                                                    },
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "type": "ABS-GLOB-STAR",
+                                                                "children": []
+                                                            }
+                                                        ],
+                                                        "type": "BASH-GLOB"
+                                                    }
+                                                ],
+                                                "type": "BASH-CONCAT"
+                                            }
+                                        ],
+                                        "type": "SC-RM-PATH"
+                                    }
+                                ],
+                                "type": "SC-RM-PATHS"
+                            }
+                        ],
+                        "type": "SC-RM"
+                    }
+                ],
+                "type": "BASH-SCRIPT"
+            }
+        ],
+        "type": "DOCKER-RUN"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "type": "SC-SET-F-E"
+                            },
+                            {
+                                "children": [],
+                                "type": "SC-SET-F-U"
+                            },
+                            {
+                                "children": [],
+                                "type": "SC-SET-F-X"
+                            }
+                        ],
+                        "type": "SC-SET"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "type": "BASH-VARIABLE:apkStaticDist"
+                                    }
+                                ],
+                                "type": "BASH-ASSIGN-LHS"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "type": "BASH-SINGLE-QUOTED"
+                                    }
+                                ],
+                                "type": "BASH-ASSIGN-RHS"
+                            }
+                        ],
+                        "type": "BASH-ASSIGN"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "type": "BASH-VARIABLE:apkStaticVersion"
+                                    }
+                                ],
+                                "type": "BASH-ASSIGN-LHS"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "type": "BASH-SINGLE-QUOTED"
+                                    }
+                                ],
+                                "type": "BASH-ASSIGN-RHS"
+                            }
+                        ],
+                        "type": "BASH-ASSIGN"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "type": "BASH-VARIABLE:apkStaticArch"
+                                    }
+                                ],
+                                "type": "BASH-ASSIGN-LHS"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "type": "BASH-SINGLE-QUOTED"
+                                    }
+                                ],
+                                "type": "BASH-ASSIGN-RHS"
+                            }
+                        ],
+                        "type": "BASH-ASSIGN"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "type": "BASH-VARIABLE:apkStaticUrl"
+                                    }
+                                ],
+                                "type": "BASH-ASSIGN-LHS"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "type": "ABS-PROBABLY-URL",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "ABS-URL-PROTOCOL-HTTP",
+                                                        "children": []
+                                                    }
+                                                ],
+                                                "type": "BASH-LITERAL"
+                                            },
+                                            {
+                                                "children": [],
+                                                "type": "BASH-VARIABLE:apkStaticDist"
+                                            },
+                                            {
+                                                "children": [
+                                                    {
+                                                        "type": "ABS-MAYBE-PATH",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "ABS-PATH-ABSOLUTE",
+                                                        "children": []
+                                                    }
+                                                ],
+                                                "type": "BASH-LITERAL"
+                                            },
+                                            {
+                                                "children": [],
+                                                "type": "BASH-VARIABLE:apkStaticArch"
+                                            },
+                                            {
+                                                "children": [
+                                                    {
+                                                        "type": "ABS-MAYBE-PATH",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "ABS-PATH-ABSOLUTE",
+                                                        "children": []
+                                                    }
+                                                ],
+                                                "type": "BASH-LITERAL"
+                                            },
+                                            {
+                                                "children": [],
+                                                "type": "BASH-VARIABLE:apkStaticVersion"
+                                            },
+                                            {
+                                                "children": [],
+                                                "type": "BASH-LITERAL"
+                                            }
+                                        ],
+                                        "type": "BASH-DOUBLE-QUOTED"
+                                    }
+                                ],
+                                "type": "BASH-ASSIGN-RHS"
+                            }
+                        ],
+                        "type": "BASH-ASSIGN"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "type": "ABS-MAYBE-PATH",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "ABS-PATH-ABSOLUTE",
+                                                        "children": []
+                                                    }
+                                                ],
+                                                "type": "BASH-LITERAL"
+                                            }
+                                        ],
+                                        "type": "BASH-PATH"
+                                    }
+                                ],
+                                "type": "SC-WGET-OUTPUT-DOCUMENT"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "type": "BASH-LITERAL"
+                                    }
+                                ],
+                                "type": "SC-WGET-URL"
+                            }
+                        ],
+                        "type": "SC-WGET"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "type": "SC-TAR-X"
+                            },
+                            {
+                                "children": [],
+                                "type": "SC-TAR-Z"
+                            },
+                            {
+                                "children": [],
+                                "type": "SC-TAR-V"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "type": "ABS-MAYBE-PATH",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "ABS-PATH-ABSOLUTE",
+                                                        "children": []
+                                                    }
+                                                ],
+                                                "type": "BASH-LITERAL"
+                                            }
+                                        ],
+                                        "type": "BASH-PATH"
+                                    }
+                                ],
+                                "type": "SC-TAR-FILE"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "type": "ABS-MAYBE-PATH",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "ABS-PATH-ABSOLUTE",
+                                                        "children": []
+                                                    }
+                                                ],
+                                                "type": "BASH-LITERAL"
+                                            }
+                                        ],
+                                        "type": "BASH-PATH"
+                                    }
+                                ],
+                                "type": "SC-TAR-DIRECTORY"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "type": "BASH-LITERAL"
+                                    }
+                                ],
+                                "type": "SC-TAR-WILDCARDS"
+                            }
+                        ],
+                        "type": "SC-TAR"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "type": "ABS-MAYBE-PATH",
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "type": "ABS-PATH-ABSOLUTE",
+                                                                "children": []
+                                                            }
+                                                        ],
+                                                        "type": "BASH-LITERAL"
+                                                    },
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "type": "ABS-GLOB-STAR",
+                                                                "children": []
+                                                            }
+                                                        ],
+                                                        "type": "BASH-GLOB"
+                                                    },
+                                                    {
+                                                        "children": [],
+                                                        "type": "BASH-LITERAL"
+                                                    }
+                                                ],
+                                                "type": "BASH-CONCAT"
+                                            }
+                                        ],
+                                        "type": "SC-MV-PATH"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "type": "ABS-MAYBE-PATH",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "ABS-PATH-ABSOLUTE",
+                                                        "children": []
+                                                    }
+                                                ],
+                                                "type": "BASH-LITERAL"
+                                            }
+                                        ],
+                                        "type": "SC-MV-PATH"
+                                    }
+                                ],
+                                "type": "SC-MV-PATHS"
+                            }
+                        ],
+                        "type": "SC-MV"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "type": "ABS-MAYBE-PATH",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "ABS-PATH-ABSOLUTE",
+                                                        "children": []
+                                                    }
+                                                ],
+                                                "type": "BASH-LITERAL"
+                                            }
+                                        ],
+                                        "type": "SC-RM-PATH"
+                                    }
+                                ],
+                                "type": "SC-RM-PATHS"
+                            }
+                        ],
+                        "type": "SC-RM"
+                    },
+                    {
+                        "children": [],
+                        "type": "UNKNOWN"
+                    }
+                ],
+                "type": "BASH-SCRIPT"
+            }
+        ],
+        "type": "DOCKER-RUN"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "type": "ABS-MAYBE-PATH",
+                                "children": []
+                            },
+                            {
+                                "type": "ABS-PATH-ABSOLUTE",
+                                "children": []
+                            }
+                        ],
+                        "type": "DOCKER-PATH"
+                    }
+                ],
+                "type": "DOCKER-COPY-TARGET"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "type": "DOCKER-PATH"
+                    }
+                ],
+                "type": "DOCKER-COPY-SOURCE"
+            }
+        ],
+        "type": "DOCKER-COPY"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "type": "ABS-PROBABLY-URL",
+                        "children": []
+                    }
+                ],
+                "type": "DOCKER-CMD-ARG"
+            }
+        ],
+        "type": "DOCKER-CMD"
+    }
+]

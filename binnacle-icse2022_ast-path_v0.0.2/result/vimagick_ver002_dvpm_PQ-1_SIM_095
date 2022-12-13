@@ -1,0 +1,474 @@
+{'children': [{'children': [], 'type': 'SC-APK-F-NO-CACHE'},
+              {'children': [{'children': [],
+                             'type': 'SC-APK-PACKAGE:CA-CERTIFICATES'},
+                            {'children': [],
+                             'type': 'SC-APK-PACKAGE:DEVICE-MAPPER'},
+                            {'children': [], 'type': 'SC-APK-PACKAGE:OPENSSL'},
+                            {'children': [], 'type': 'SC-APK-PACKAGE:ZFS'}],
+               'type': 'SC-APK-PACKAGES'}],
+ 'type': 'SC-APK-ADD'}
+f1_score: 0.8271186440677966
+{'children': [{'children': [], 'type': 'SC-APK-F-NO-CACHE'},
+              {'children': [{'children': [], 'type': 'SC-APK-PACKAGE:HAPROXY'}],
+               'type': 'SC-APK-PACKAGES'}],
+ 'type': 'SC-APK-ADD'}
+f1_score: 0.8079470198675497
+{'children': [{'children': [], 'type': 'SC-APK-F-NO-CACHE'},
+              {'children': [{'children': [],
+                             'type': 'SC-APK-PACKAGE:LIBCRYPTO1.0'},
+                            {'children': [], 'type': 'SC-APK-PACKAGE:LIBEV'},
+                            {'children': [],
+                             'type': 'SC-APK-PACKAGE:LIBSODIUM'},
+                            {'children': [], 'type': 'SC-APK-PACKAGE:PCRE'},
+                            {'children': [], 'type': 'SC-APK-PACKAGE:UDNS'}],
+               'type': 'SC-APK-PACKAGES'}],
+ 'type': 'SC-APK-ADD'}
+f1_score: 0.8133333333333332
+{'children': [{'children': [], 'type': 'SC-APK-F-NO-CACHE'},
+              {'children': [{'children': [],
+                             'type': 'SC-APK-PACKAGE:TINYPROXY'}],
+               'type': 'SC-APK-PACKAGES'}],
+ 'type': 'SC-APK-ADD'}
+f1_score: 0.8187919463087248
+{'children': [{'children': [], 'type': 'SC-APK-F-UPDATE-CACHE'},
+              {'children': [{'children': [], 'type': 'SC-APK-PACKAGE:AUTOCONF'},
+                            {'children': [], 'type': 'SC-APK-PACKAGE:AUTOMAKE'},
+                            {'children': [],
+                             'type': 'SC-APK-PACKAGE:BUILD-BASE'},
+                            {'children': [], 'type': 'SC-APK-PACKAGE:GAWK'},
+                            {'children': [], 'type': 'SC-APK-PACKAGE:GIT'},
+                            {'children': [], 'type': 'SC-APK-PACKAGE:IPTABLES'},
+                            {'children': [], 'type': 'SC-APK-PACKAGE:LIBTOOL'},
+                            {'children': [],
+                             'type': 'SC-APK-PACKAGE:LINUX-HEADERS'}],
+               'type': 'SC-APK-PACKAGES'}],
+ 'type': 'SC-APK-ADD'}
+f1_score: 0.8231292517006803
+{'children': [{'children': [], 'type': 'SC-APK-F-UPDATE-CACHE'},
+              {'children': [{'children': [], 'type': 'SC-APK-PACKAGE:CURL'},
+                            {'children': [],
+                             'type': 'SC-APK-PACKAGE:LIBSODIUM'},
+                            {'children': [], 'type': 'SC-APK-PACKAGE:PYTHON'}],
+               'type': 'SC-APK-PACKAGES'}],
+ 'type': 'SC-APK-ADD'}
+f1_score: 0.8191126279863481
+{'children': [{'children': [], 'type': 'SC-APK-F-PURGE'},
+              {'children': [{'children': [],
+                             'type': 'SC-APK-PACKAGE:BUILD-BASE'},
+                            {'children': [],
+                             'type': 'SC-APK-PACKAGE:LIBFFI-DEV'},
+                            {'children': [],
+                             'type': 'SC-APK-PACKAGE:OPENSSL-DEV'},
+                            {'children': [],
+                             'type': 'SC-APK-PACKAGE:PYTHON3-DEV'}],
+               'type': 'SC-APK-PACKAGES'}],
+ 'type': 'SC-APK-DEL'}
+f1_score: 0.4066390041493776
+{'children': [{'children': [{'children': [],
+                             'type': 'SC-APK-PACKAGE:BUILD-BASE'},
+                            {'children': [], 'type': 'SC-APK-PACKAGE:CMAKE'},
+                            {'children': [], 'type': 'SC-APK-PACKAGE:CURL'},
+                            {'children': [],
+                             'type': 'SC-APK-PACKAGE:LINUX-HEADERS'},
+                            {'children': [],
+                             'type': 'SC-APK-PACKAGE:ZLIB-DEV'}],
+               'type': 'SC-APK-PACKAGES'}],
+ 'type': 'SC-APK-DEL'}
+f1_score: 0.44144144144144143
+{'children': [{'children': [{'children': [], 'type': 'SC-APK-PACKAGE:TMP'}],
+               'type': 'SC-APK-PACKAGES'}],
+ 'type': 'SC-APK-DEL'}
+f1_score: 0.4336283185840708
+{'children': [], 'type': 'SC-APT-GET-CLEAN'}
+f1_score: 1.0
+{'children': [{'children': [], 'type': 'SC-APT-GET-F-FIX-BROKEN'},
+              {'children': [], 'type': 'SC-APT-GET-F-YES'}],
+ 'type': 'SC-APT-GET-INSTALL'}
+f1_score: 0.7215189873417721
+{'children': [{'children': [], 'type': 'SC-APT-GET-F-YES'},
+              {'children': [{'children': [], 'type': 'SC-APT-GET-PACKAGE:GIT'},
+                            {'children': [],
+                             'type': 'SC-APT-GET-PACKAGE:LIBFREETYPE6'},
+                            {'children': [],
+                             'type': 'SC-APT-GET-PACKAGE:LIBFREETYPE6-DEV'},
+                            {'children': [],
+                             'type': 'SC-APT-GET-PACKAGE:LIBJPEG-DEV'},
+                            {'children': [],
+                             'type': 'SC-APT-GET-PACKAGE:LIBJPEG62-TURBO'},
+                            {'children': [],
+                             'type': 'SC-APT-GET-PACKAGE:LIBPNG12-0'},
+                            {'children': [],
+                             'type': 'SC-APT-GET-PACKAGE:LIBPNG12-DEV'},
+                            {'children': [],
+                             'type': 'SC-APT-GET-PACKAGE:LIBZIP-DEV'},
+                            {'children': [],
+                             'type': 'SC-APT-GET-PACKAGE:LIBZIP2'}],
+               'type': 'SC-APT-GET-PACKAGES'}],
+ 'type': 'SC-APT-GET-INSTALL'}
+f1_score: 0.8750000000000001
+{'children': [{'children': [], 'type': 'SC-APT-F-YES'},
+              {'children': [{'children': [], 'type': 'SC-APT-PACKAGE:N2N'}],
+               'type': 'SC-APT-PACKAGES'}],
+ 'type': 'SC-APT-INSTALL'}
+f1_score: 0.11764705882352941
+{'children': [{'children': [{'children': [{'children': [],
+                                           'type': 'ABS-MAYBE-PATH'},
+                                          {'children': [],
+                                           'type': 'ABS-PATH-ABSOLUTE'}],
+                             'type': 'BASH-LITERAL'}],
+               'type': 'SC-CD-PATH'}],
+ 'type': 'SC-CD'}
+f1_score: 1.0
+{'children': [{'children': [{'children': [{'children': [],
+                                           'type': 'ABS-MAYBE-PATH'}],
+                             'type': 'BASH-LITERAL'}],
+               'type': 'SC-CD-PATH'}],
+ 'type': 'SC-CD'}
+f1_score: 1.0
+{'children': [{'children': [], 'type': 'SC-CHOWN-F-NO-DEREFERENCE'},
+              {'children': [], 'type': 'SC-CHOWN-F-RECURSIVE'},
+              {'children': [{'children': [], 'type': 'BASH-LITERAL'}],
+               'type': 'SC-CHOWN-OWNER'},
+              {'children': [{'children': [{'children': [{'children': [],
+                                                         'type': 'ABS-MAYBE-PATH'},
+                                                        {'children': [],
+                                                         'type': 'ABS-PATH-ABSOLUTE'},
+                                                        {'children': [],
+                                                         'type': 'ABS-PATH-VAR'}],
+                                           'type': 'BASH-LITERAL'}],
+                             'type': 'SC-CHOWN-PATH'},
+                            {'children': [{'children': [{'children': [],
+                                                         'type': 'ABS-MAYBE-PATH'},
+                                                        {'children': [],
+                                                         'type': 'ABS-PATH-ABSOLUTE'},
+                                                        {'children': [],
+                                                         'type': 'ABS-PROBABLY-URL'}],
+                                           'type': 'BASH-LITERAL'}],
+                             'type': 'SC-CHOWN-PATH'}],
+               'type': 'SC-CHOWN-PATHS'}],
+ 'type': 'SC-CHOWN'}
+f1_score: 1.0
+{'children': [{'children': [], 'type': 'SC-CP-F-ARCHIVE'},
+              {'children': [], 'type': 'SC-CP-F-VERBOSE'},
+              {'children': [{'children': [{'children': [],
+                                           'type': 'BASH-LITERAL'}],
+                             'type': 'SC-CP-PATH'},
+                            {'children': [{'children': [],
+                                           'type': 'BASH-LITERAL'}],
+                             'type': 'SC-CP-PATH'}],
+               'type': 'SC-CP-PATHS'}],
+ 'type': 'SC-CP'}
+f1_score: 1.0
+{'children': [{'children': [{'children': [{'children': [],
+                                           'type': 'BASH-LITERAL'}],
+                             'type': 'SC-CP-PATH'},
+                            {'children': [{'children': [{'children': [],
+                                                         'type': 'ABS-MAYBE-PATH'},
+                                                        {'children': [],
+                                                         'type': 'ABS-PATH-ABSOLUTE'}],
+                                           'type': 'BASH-LITERAL'}],
+                             'type': 'SC-CP-PATH'}],
+               'type': 'SC-CP-PATHS'}],
+ 'type': 'SC-CP'}
+f1_score: 1.0
+{'children': [{'children': [], 'type': 'SC-CURL-F-LOCATION'},
+              {'children': [], 'type': 'SC-CURL-F-SHOW-ERROR'},
+              {'children': [], 'type': 'SC-CURL-F-SILENT'},
+              {'children': [{'children': [{'children': [],
+                                           'type': 'BASH-VARIABLE:DNS_FILE'}],
+                             'type': 'BASH-PATH'}],
+               'type': 'SC-CURL-OUTPUT'},
+              {'children': [{'children': [], 'type': 'BASH-VARIABLE:DNS_URL'}],
+               'type': 'SC-CURL-URL'}],
+ 'type': 'SC-CURL'}
+f1_score: 1.0
+{'children': [{'children': [], 'type': 'SC-CURL-F-LOCATION'},
+              {'children': [], 'type': 'SC-CURL-F-SHOW-ERROR'},
+              {'children': [], 'type': 'SC-CURL-F-SILENT'},
+              {'children': [{'children': [{'children': [],
+                                           'type': 'BASH-VARIABLE:PIWIK_FILE'}],
+                             'type': 'BASH-PATH'}],
+               'type': 'SC-CURL-OUTPUT'},
+              {'children': [{'children': [],
+                             'type': 'BASH-VARIABLE:PIWIK_URL'}],
+               'type': 'SC-CURL-URL'}],
+ 'type': 'SC-CURL'}
+f1_score: 1.0
+{'children': [{'children': [], 'type': 'SC-CURL-F-LOCATION'},
+              {'children': [], 'type': 'SC-CURL-F-SHOW-ERROR'},
+              {'children': [], 'type': 'SC-CURL-F-SILENT'},
+              {'children': [{'children': [{'children': [],
+                                           'type': 'ABS-EXTENSION-TAR'},
+                                          {'children': [],
+                                           'type': 'ABS-PROBABLY-URL'},
+                                          {'children': [],
+                                           'type': 'ABS-URL-PROTOCOL-HTTPS'}],
+                             'type': 'BASH-LITERAL'}],
+               'type': 'SC-CURL-URL'}],
+ 'type': 'SC-CURL'}
+f1_score: 0.9907407407407407
+{'children': [{'children': [], 'type': 'SC-CURL-F-LOCATION'},
+              {'children': [], 'type': 'SC-CURL-F-SHOW-ERROR'},
+              {'children': [], 'type': 'SC-CURL-F-SILENT'},
+              {'children': [{'children': [{'children': [],
+                                           'type': 'ABS-PROBABLY-URL'},
+                                          {'children': [],
+                                           'type': 'ABS-URL-PROTOCOL-HTTPS'}],
+                             'type': 'BASH-LITERAL'}],
+               'type': 'SC-CURL-URL'}],
+ 'type': 'SC-CURL'}
+f1_score: 0.9907407407407407
+{'children': [{'children': [], 'type': 'SC-CURL-F-LOCATION'},
+              {'children': [], 'type': 'SC-CURL-F-SHOW-ERROR'},
+              {'children': [], 'type': 'SC-CURL-F-SILENT'},
+              {'children': [{'children': [{'children': [],
+                                           'type': 'ABS-PROBABLY-URL'},
+                                          {'children': [],
+                                           'type': 'ABS-URL-PROTOCOL-HTTPS'}],
+                             'type': 'BASH-LITERAL'}],
+               'type': 'SC-CURL-URL'}],
+ 'type': 'SC-CURL'}
+f1_score: 0.9907407407407407
+{'children': [{'children': [{'children': [{'children': [],
+                                           'type': 'BASH-LITERAL'}],
+                             'type': 'SC-ECHO-ITEM'}],
+               'type': 'SC-ECHO-ITEMS'}],
+ 'type': 'SC-ECHO'}
+f1_score: 1.0
+{'children': [{'children': [{'children': [{'children': [{'children': [],
+                                                         'type': 'ABS-PROBABLY-URL'},
+                                                        {'children': [],
+                                                         'type': 'ABS-SINGLE-SPACE'},
+                                                        {'children': [],
+                                                         'type': 'ABS-URL-PROTOCOL-HTTP'}],
+                                           'type': 'BASH-LITERAL'}],
+                             'type': 'SC-ECHO-ITEM'}],
+               'type': 'SC-ECHO-ITEMS'}],
+ 'type': 'SC-ECHO'}
+f1_score: 1.0
+{'children': [{'children': [{'children': [], 'type': 'BASH-LITERAL'}],
+               'type': 'SC-GIT-TARGET'}],
+ 'type': 'SC-GIT-CHECKOUT'}
+f1_score: 0.0
+{'children': [{'children': [], 'type': 'SC-GO-F-D'},
+              {'children': [], 'type': 'SC-GO-F-V'},
+              {'children': [{'children': [{'children': [{'children': [],
+                                                         'type': 'ABS-PROBABLY-URL'}],
+                                           'type': 'BASH-LITERAL'}],
+                             'type': 'SC-GO-PACKAGE'}],
+               'type': 'SC-GO-PACKAGES'}],
+ 'type': 'SC-GO-GET'}
+f1_score: 0.33333333333333337
+{'children': [{'children': [], 'type': 'SC-GROUP-ADD-F-SYSTEM'},
+              {'children': [{'children': [], 'type': 'BASH-LITERAL'}],
+               'type': 'SC-GROUP-ADD-GROUP'}],
+ 'type': 'SC-GROUP-ADD'}
+f1_score: 0.2222222222222222
+{'children': [], 'type': 'SC-MAKE'}
+f1_score: 0.41025641025641024
+{'children': [{'children': [{'children': [], 'type': 'BASH-LITERAL'}],
+               'type': 'SC-MAKE-TARGET'}],
+ 'type': 'SC-MAKE'}
+f1_score: 0.8301886792452831
+{'children': [{'children': [{'children': [{'children': [],
+                                           'type': 'BASH-LITERAL'}],
+                             'type': 'SC-MKDIR-PATH'}],
+               'type': 'SC-MKDIR-PATHS'}],
+ 'type': 'SC-MKDIR'}
+f1_score: 1.0
+{'children': [{'children': [], 'type': 'SC-PIP-F-NO-CACHE-DIR'},
+              {'children': [{'children': [{'children': [],
+                                           'type': 'BASH-LITERAL'}],
+                             'type': 'SC-PIP-TARGET'}],
+               'type': 'SC-PIP-TARGETS'}],
+ 'type': 'SC-PIP-INSTALL'}
+f1_score: 0.5737704918032787
+{'children': [], 'type': 'SC-PYTHON'}
+f1_score: 0.972972972972973
+{'children': [{'children': [], 'type': 'SC-RM-F-FORCE'},
+              {'children': [], 'type': 'SC-RM-F-RECURSIVE'},
+              {'children': [{'children': [{'children': [{'children': [{'children': [],
+                                                                       'type': 'ABS-GLOB-STAR'}],
+                                                         'type': 'BASH-GLOB'},
+                                                        {'children': [{'children': [],
+                                                                       'type': 'ABS-APT-LISTS'},
+                                                                      {'children': [],
+                                                                       'type': 'ABS-MAYBE-PATH'},
+                                                                      {'children': [],
+                                                                       'type': 'ABS-PATH-ABSOLUTE'},
+                                                                      {'children': [],
+                                                                       'type': 'ABS-PATH-VAR'}],
+                                                         'type': 'BASH-LITERAL'}],
+                                           'type': 'BASH-CONCAT'}],
+                             'type': 'SC-RM-PATH'}],
+               'type': 'SC-RM-PATHS'}],
+ 'type': 'SC-RM'}
+f1_score: 0.9913043478260869
+{'children': [{'children': [], 'type': 'SC-RM-F-FORCE'},
+              {'children': [], 'type': 'SC-RM-F-RECURSIVE'},
+              {'children': [{'children': [{'children': [{'children': [{'children': [],
+                                                                       'type': 'ABS-GLOB-STAR'}],
+                                                         'type': 'BASH-GLOB'},
+                                                        {'children': [{'children': [],
+                                                                       'type': 'ABS-APT-LISTS'},
+                                                                      {'children': [],
+                                                                       'type': 'ABS-MAYBE-PATH'},
+                                                                      {'children': [],
+                                                                       'type': 'ABS-PATH-ABSOLUTE'},
+                                                                      {'children': [],
+                                                                       'type': 'ABS-PATH-VAR'}],
+                                                         'type': 'BASH-LITERAL'}],
+                                           'type': 'BASH-CONCAT'}],
+                             'type': 'SC-RM-PATH'}],
+               'type': 'SC-RM-PATHS'}],
+ 'type': 'SC-RM'}
+f1_score: 1.0
+{'children': [{'children': [], 'type': 'SC-RM-F-FORCE'},
+              {'children': [], 'type': 'SC-RM-F-RECURSIVE'},
+              {'children': [{'children': [{'children': [{'children': [{'children': [],
+                                                                       'type': 'ABS-GLOB-STAR'}],
+                                                         'type': 'BASH-GLOB'},
+                                                        {'children': [{'children': [],
+                                                                       'type': 'ABS-APT-LISTS'},
+                                                                      {'children': [],
+                                                                       'type': 'ABS-MAYBE-PATH'},
+                                                                      {'children': [],
+                                                                       'type': 'ABS-PATH-ABSOLUTE'},
+                                                                      {'children': [],
+                                                                       'type': 'ABS-PATH-VAR'}],
+                                                         'type': 'BASH-LITERAL'}],
+                                           'type': 'BASH-CONCAT'}],
+                             'type': 'SC-RM-PATH'}],
+               'type': 'SC-RM-PATHS'}],
+ 'type': 'SC-RM'}
+f1_score: 0.9956331877729258
+{'children': [{'children': [], 'type': 'SC-RM-F-FORCE'},
+              {'children': [], 'type': 'SC-RM-F-RECURSIVE'},
+              {'children': [{'children': [{'children': [{'children': [{'children': [],
+                                                                       'type': 'ABS-GLOB-STAR'}],
+                                                         'type': 'BASH-GLOB'},
+                                                        {'children': [{'children': [],
+                                                                       'type': 'ABS-MAYBE-PATH'},
+                                                                      {'children': [],
+                                                                       'type': 'ABS-PATH-ABSOLUTE'},
+                                                                      {'children': [],
+                                                                       'type': 'ABS-PATH-VAR'}],
+                                                         'type': 'BASH-LITERAL'}],
+                                           'type': 'BASH-CONCAT'}],
+                             'type': 'SC-RM-PATH'}],
+               'type': 'SC-RM-PATHS'}],
+ 'type': 'SC-RM'}
+f1_score: 0.9956331877729258
+{'children': [{'children': [], 'type': 'SC-RM-F-FORCE'},
+              {'children': [], 'type': 'SC-RM-F-RECURSIVE'},
+              {'children': [{'children': [{'children': [{'children': [{'children': [],
+                                                                       'type': 'ABS-GLOB-STAR'}],
+                                                         'type': 'BASH-GLOB'},
+                                                        {'children': [{'children': [],
+                                                                       'type': 'ABS-MAYBE-PATH'},
+                                                                      {'children': [],
+                                                                       'type': 'ABS-PATH-ABSOLUTE'}],
+                                                         'type': 'BASH-LITERAL'}],
+                                           'type': 'BASH-CONCAT'}],
+                             'type': 'SC-RM-PATH'},
+                            {'children': [{'children': [{'children': [{'children': [],
+                                                                       'type': 'ABS-GLOB-STAR'}],
+                                                         'type': 'BASH-GLOB'},
+                                                        {'children': [{'children': [],
+                                                                       'type': 'ABS-MAYBE-PATH'},
+                                                                      {'children': [],
+                                                                       'type': 'ABS-PATH-ABSOLUTE'},
+                                                                      {'children': [],
+                                                                       'type': 'ABS-PATH-VAR'}],
+                                                         'type': 'BASH-LITERAL'}],
+                                           'type': 'BASH-CONCAT'}],
+                             'type': 'SC-RM-PATH'}],
+               'type': 'SC-RM-PATHS'}],
+ 'type': 'SC-RM'}
+f1_score: 0.9956331877729258
+{'children': [{'children': [], 'type': 'SC-RM-F-FORCE'},
+              {'children': [], 'type': 'SC-RM-F-RECURSIVE'},
+              {'children': [{'children': [{'children': [],
+                                           'type': 'BASH-LITERAL'}],
+                             'type': 'SC-RM-PATH'}],
+               'type': 'SC-RM-PATHS'}],
+ 'type': 'SC-RM'}
+f1_score: 0.9912280701754386
+{'children': [{'children': [], 'type': 'SC-SET-F-E'},
+              {'children': [], 'type': 'SC-SET-F-X'}],
+ 'type': 'SC-SET'}
+f1_score: 0.9933774834437086
+{'children': [{'children': [], 'type': 'SC-SET-F-E'},
+              {'children': [], 'type': 'SC-SET-F-X'}],
+ 'type': 'SC-SET'}
+f1_score: 1.0
+{'children': [{'children': [], 'type': 'SC-SET-F-E'},
+              {'children': [], 'type': 'SC-SET-F-X'}],
+ 'type': 'SC-SET'}
+f1_score: 1.0
+{'children': [{'children': [], 'type': 'SC-SET-F-E'},
+              {'children': [], 'type': 'SC-SET-F-X'}],
+ 'type': 'SC-SET'}
+f1_score: 1.0
+{'children': [{'children': [], 'type': 'SC-SET-F-E'},
+              {'children': [], 'type': 'SC-SET-F-X'}],
+ 'type': 'SC-SET'}
+f1_score: 0.9966777408637874
+{'children': [{'children': [], 'type': 'SC-SET-F-E'},
+              {'children': [], 'type': 'SC-SET-F-X'}],
+ 'type': 'SC-SET'}
+f1_score: 0.9933774834437086
+{'children': [{'children': [], 'type': 'SC-SET-F-E'},
+              {'children': [], 'type': 'SC-SET-F-X'}],
+ 'type': 'SC-SET'}
+f1_score: 1.0
+{'children': [{'children': [], 'type': 'SC-SET-F-E'},
+              {'children': [], 'type': 'SC-SET-F-X'}],
+ 'type': 'SC-SET'}
+f1_score: 1.0
+{'children': [{'children': [{'children': [{'children': [],
+                                           'type': 'BASH-VARIABLE:PHPBB_FILE'}],
+                             'type': 'BASH-PATH'}],
+               'type': 'SC-TAR-FILE'},
+              {'children': [], 'type': 'SC-TAR-J'},
+              {'children': [{'children': [], 'type': 'BASH-LITERAL'}],
+               'type': 'SC-TAR-STRIP-COMPONENTS'},
+              {'children': [], 'type': 'SC-TAR-X'}],
+ 'type': 'SC-TAR'}
+f1_score: 0.19999999999999998
+{'children': [{'children': [], 'type': 'SC-WGET-F-QUIET'},
+              {'children': [{'children': [{'children': [],
+                                           'type': 'ABS-MAYBE-PATH'},
+                                          {'children': [],
+                                           'type': 'ABS-PATH-ABSOLUTE'}],
+                             'type': 'BASH-LITERAL'}],
+               'type': 'SC-WGET-P'},
+              {'children': [{'children': [{'children': [],
+                                           'type': 'ABS-PROBABLY-URL'},
+                                          {'children': [],
+                                           'type': 'ABS-URL-PROTOCOL-HTTP'}],
+                             'type': 'BASH-LITERAL'}],
+               'type': 'SC-WGET-URL'}],
+ 'type': 'SC-WGET'}
+f1_score: 0.851063829787234
+{'children': [{'children': [{'children': [{'children': [{'children': [],
+                                                         'type': 'ABS-PROBABLY-URL'},
+                                                        {'children': [],
+                                                         'type': 'ABS-URL-PROTOCOL-HTTPS'}],
+                                           'type': 'BASH-LITERAL'},
+                                          {'children': [{'children': [],
+                                                         'type': 'ABS-MAYBE-PATH'},
+                                                        {'children': [],
+                                                         'type': 'ABS-PATH-ABSOLUTE'}],
+                                           'type': 'BASH-LITERAL'},
+                                          {'children': [{'children': [],
+                                                         'type': 'ABS-EXTENSION-TAR'}],
+                                           'type': 'BASH-LITERAL'},
+                                          {'children': [],
+                                           'type': 'BASH-VARIABLE:AMBARI_VERSION'},
+                                          {'children': [],
+                                           'type': 'BASH-VARIABLE:AMBARI_VERSION'}],
+                             'type': 'BASH-CONCAT'}],
+               'type': 'SC-WGET-URL'}],
+ 'type': 'SC-WGET'}
+f1_score: 0.41379310344827586

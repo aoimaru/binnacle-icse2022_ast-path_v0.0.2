@@ -1,0 +1,372 @@
+
+
+
+{'children': [{'children': [], 'type': 'SC-SHA-256-SUM-F-CHECK'}],
+ 'type': 'SC-SHA-256-SUM'}
+/Users/nakamurahekikai/Desktop/binnacle-icse2022_ast-path_v0.0.2/binnacle-icse2022_ast-path_v0.0.2/main.py:38: DeprecationWarning: Call to deprecated `docvecs` (The `docvecs` property has been renamed `dv`.).
+  for most_sim in model.docvecs.most_similar(astCommandId):
+score: 0.5899560451507568
+{'astCommand': {'children': [{'children': [],
+                              'type': 'SC-SHA-256-SUM-F-CHECK'}],
+                'type': 'SC-SHA-256-SUM'},
+ 'astCommandId': '6595d479a5a0108d980f35d1bbbf3d8fddfdb02d:1:10'}
+score: 0.5812391638755798
+{'astCommand': {'children': [{'children': [],
+                              'type': 'SC-SHA-256-SUM-F-CHECK'}],
+                'type': 'SC-SHA-256-SUM'},
+ 'astCommandId': 'c8f7e39cc87328ebd91d63dbc764ad7d73be3be9:3:6'}
+score: 0.5741641521453857
+{'astCommand': {'children': [{'children': [],
+                              'type': 'SC-SHA-256-SUM-F-CHECK'}],
+                'type': 'SC-SHA-256-SUM'},
+ 'astCommandId': 'b5a8cf20b4b34f76bcb30f26da18fd6d057a0bea:2:4'}
+score: 0.548774003982544
+{'astCommand': {'children': [{'children': [],
+                              'type': 'SC-SHA-256-SUM-F-CHECK'}],
+                'type': 'SC-SHA-256-SUM'},
+ 'astCommandId': '587a179b228c2b592f30f09d42a1197d853dd665:1:3'}
+score: 0.5378013849258423
+{'astCommand': {'children': [{'children': [],
+                              'type': 'SC-SHA-256-SUM-F-CHECK'}],
+                'type': 'SC-SHA-256-SUM'},
+ 'astCommandId': 'a1a581c75cee365923e8bb22697e747c1e1009cb:2:11'}
+score: 0.5306209325790405
+{'astCommand': {'children': [{'children': [],
+                              'type': 'SC-SHA-256-SUM-F-CHECK'}],
+                'type': 'SC-SHA-256-SUM'},
+ 'astCommandId': 'df14a602bcd653559e635eb000a9a48180add800:1:5'}
+score: 0.5243327617645264
+{'astCommand': {'children': [{'children': [],
+                              'type': 'SC-SHA-256-SUM-F-CHECK'}],
+                'type': 'SC-SHA-256-SUM'},
+ 'astCommandId': '17ff0edfe17a31c8b18561d5ad1d05a436e9e520:0:4'}
+score: 0.5227059125900269
+{'astCommand': {'children': [{'children': [],
+                              'type': 'SC-SHA-256-SUM-F-CHECK'}],
+                'type': 'SC-SHA-256-SUM'},
+ 'astCommandId': 'a1a581c75cee365923e8bb22697e747c1e1009cb:2:4'}
+score: 0.520233690738678
+{'astCommand': {'children': [{'children': [],
+                              'type': 'SC-SHA-256-SUM-F-CHECK'}],
+                'type': 'SC-SHA-256-SUM'},
+ 'astCommandId': 'cd636feca30c0fecd812864b5381dd5d16c8e15a:1:22'}
+score: 0.5198038220405579
+{'astCommand': {'children': [{'children': [],
+                              'type': 'SC-SHA-256-SUM-F-CHECK'}],
+                'type': 'SC-SHA-256-SUM'},
+ 'astCommandId': '6595d479a5a0108d980f35d1bbbf3d8fddfdb02d:1:22'}
+
+
+
+{'children': [{'children': [], 'type': 'SC-SET-F-E'},
+              {'children': [], 'type': 'SC-SET-F-X'}],
+ 'type': 'SC-SET'}
+score: 0.8074795603752136
+{'astCommand': {'children': [{'children': [], 'type': 'SC-SET-F-E'},
+                             {'children': [], 'type': 'SC-SET-F-X'}],
+                'type': 'SC-SET'},
+ 'astCommandId': '6e482708d3cafd1b0361e981702a95b023033688:3:0'}
+score: 0.7925048470497131
+{'astCommand': {'children': [{'children': [], 'type': 'SC-SET-F-E'},
+                             {'children': [], 'type': 'SC-SET-F-X'}],
+                'type': 'SC-SET'},
+ 'astCommandId': '4701d3688e38e5ef3c20b0a0cdf9688b28c0f048:6:0'}
+score: 0.7884398698806763
+{'astCommand': {'children': [{'children': [], 'type': 'SC-SET-F-E'},
+                             {'children': [], 'type': 'SC-SET-F-X'}],
+                'type': 'SC-SET'},
+ 'astCommandId': 'a3c536a8ce341afa25419bbc10d0d982155e104c:3:0'}
+score: 0.7848889231681824
+{'astCommand': {'children': [{'children': [], 'type': 'SC-SET-F-E'},
+                             {'children': [], 'type': 'SC-SET-F-X'}],
+                'type': 'SC-SET'},
+ 'astCommandId': '1ef536c220375eba0b89b38c51b7424dd2506dee:1:0'}
+score: 0.7822349071502686
+{'astCommand': {'children': [{'children': [], 'type': 'SC-SET-F-E'},
+                             {'children': [], 'type': 'SC-SET-F-X'}],
+                'type': 'SC-SET'},
+ 'astCommandId': 'bc36c2aee99918e02b2043f59879d9dc038101fc:6:0'}
+score: 0.7771870493888855
+{'astCommand': {'children': [{'children': [], 'type': 'SC-SET-F-X'}],
+                'type': 'SC-SET'},
+ 'astCommandId': 'b5277da344727e7ea4c44999b4e306e7da036adf:0:0'}
+score: 0.7744634747505188
+{'astCommand': {'children': [{'children': [], 'type': 'SC-SET-F-E'},
+                             {'children': [], 'type': 'SC-SET-F-U'},
+                             {'children': [], 'type': 'SC-SET-F-X'}],
+                'type': 'SC-SET'},
+ 'astCommandId': 'eab40b98d7262999d0228b8c94462fed0cc9f61e:0:0'}
+score: 0.7734087109565735
+{'astCommand': {'children': [{'children': [], 'type': 'SC-SET-F-E'}],
+                'type': 'SC-SET'},
+ 'astCommandId': 'fb3c3ccd5a9312fffe30d2202d04f86f7c1fdd21:2:0'}
+score: 0.7733808159828186
+{'astCommand': {'children': [{'children': [], 'type': 'SC-SET-F-X'}],
+                'type': 'SC-SET'},
+ 'astCommandId': 'd87cba9dda97b8ae229d1bc92fd6beae7ca73269:2:0'}
+score: 0.7717966437339783
+{'astCommand': {'children': [{'children': [], 'type': 'SC-SET-F-E'},
+                             {'children': [], 'type': 'SC-SET-F-X'}],
+                'type': 'SC-SET'},
+ 'astCommandId': 'caeb86e7660131ab5d245f23b00c9beab2c309f0:3:0'}
+
+
+
+{'children': [{'children': [], 'type': 'SC-SET-F-E'},
+              {'children': [], 'type': 'SC-SET-F-X'}],
+ 'type': 'SC-SET'}
+score: 0.9019299745559692
+{'astCommand': {'children': [{'children': [], 'type': 'SC-SET-F-E'}],
+                'type': 'SC-SET'},
+ 'astCommandId': '0aa1cd6a00cfe247f17e680d5e2c394b5f0d3edc:2:0'}
+score: 0.901718020439148
+{'astCommand': {'children': [{'children': [], 'type': 'SC-SET-F-X'}],
+                'type': 'SC-SET'},
+ 'astCommandId': '93a20b18d7a021accb58f703e43fcb7c4d96e8b8:0:0'}
+score: 0.8990374803543091
+{'astCommand': {'children': [{'children': [], 'type': 'SC-SET-F-X'}],
+                'type': 'SC-SET'},
+ 'astCommandId': 'c7dceeceb6a3dbedd26e1243868b82426711a4b1:2:0'}
+score: 0.8960520029067993
+{'astCommand': {'children': [{'children': [], 'type': 'SC-SET-F-X'}],
+                'type': 'SC-SET'},
+ 'astCommandId': '6c823dbc203f2843b2abfec78c42a1326a0fb782:2:0'}
+score: 0.8926243185997009
+{'astCommand': {'children': [{'children': [], 'type': 'SC-SET-F-X'}],
+                'type': 'SC-SET'},
+ 'astCommandId': 'd2e24a2d521fbf95e99ecc3610e004bd4e016de6:2:0'}
+score: 0.8911121487617493
+{'astCommand': {'children': [{'children': [], 'type': 'SC-SET-F-X'}],
+                'type': 'SC-SET'},
+ 'astCommandId': '4706d0327f4f6caad83c9e7d39044a675161e31d:0:0'}
+score: 0.8907827734947205
+{'astCommand': {'children': [{'children': [], 'type': 'SC-SET-F-X'}],
+                'type': 'SC-SET'},
+ 'astCommandId': 'c13cc3df57368fc86fc4072508c8e1999dda5ddc:6:0'}
+score: 0.8881503343582153
+{'astCommand': {'children': [{'children': [], 'type': 'SC-SET-F-X'}],
+                'type': 'SC-SET'},
+ 'astCommandId': '615cb4cf1dc98ef7d39ea96a28e5555ef5b8fd6d:1:0'}
+score: 0.8880128264427185
+{'astCommand': {'children': [{'children': [], 'type': 'SC-SET-F-X'}],
+                'type': 'SC-SET'},
+ 'astCommandId': '17ff0edfe17a31c8b18561d5ad1d05a436e9e520:0:0'}
+score: 0.8838606476783752
+{'astCommand': {'children': [{'children': [], 'type': 'SC-SET-F-X'}],
+                'type': 'SC-SET'},
+ 'astCommandId': '2e5c9eb28b4235d6dfb57261968b1cbbfc68459b:0:0'}
+
+
+
+{'children': [], 'type': 'SC-ECHO'}
+score: 0.9219647645950317
+{'astCommand': {'children': [{'children': [{'children': [{'children': [{'children': [],
+                                                                        'type': 'ABS-SINGLE-SPACE'}],
+                                                          'type': 'BASH-LITERAL'}],
+                                            'type': 'SC-ECHO-ITEM'}],
+                              'type': 'SC-ECHO-ITEMS'}],
+                'type': 'SC-ECHO'},
+ 'astCommandId': 'bc36c2aee99918e02b2043f59879d9dc038101fc:6:12'}
+score: 0.9196898937225342
+{'astCommand': {'children': [{'children': [{'children': [{'children': [],
+                                                          'type': 'BASH-LITERAL'}],
+                                            'type': 'SC-ECHO-ITEM'}],
+                              'type': 'SC-ECHO-ITEMS'}],
+                'type': 'SC-ECHO'},
+ 'astCommandId': '46146eb0c2ad8dccdf2df8ee87c89605a3180a3d:5:10'}
+score: 0.9196868538856506
+{'astCommand': {'children': [{'children': [{'children': [{'children': [{'children': [],
+                                                                        'type': 'ABS-SINGLE-SPACE'}],
+                                                          'type': 'BASH-LITERAL'}],
+                                            'type': 'SC-ECHO-ITEM'}],
+                              'type': 'SC-ECHO-ITEMS'}],
+                'type': 'SC-ECHO'},
+ 'astCommandId': 'af756098f19f4156a00579320f686199cb8818ac:2:0'}
+score: 0.9168508648872375
+{'astCommand': {'children': [{'children': [{'children': [{'children': [{'children': [],
+                                                                        'type': 'ABS-SINGLE-SPACE'}],
+                                                          'type': 'BASH-LITERAL'}],
+                                            'type': 'SC-ECHO-ITEM'}],
+                              'type': 'SC-ECHO-ITEMS'}],
+                'type': 'SC-ECHO'},
+ 'astCommandId': '46146eb0c2ad8dccdf2df8ee87c89605a3180a3d:5:5'}
+score: 0.9136515855789185
+{'astCommand': {'children': [{'children': [{'children': [{'children': [],
+                                                          'type': 'BASH-LITERAL'}],
+                                            'type': 'SC-ECHO-ITEM'}],
+                              'type': 'SC-ECHO-ITEMS'}],
+                'type': 'SC-ECHO'},
+ 'astCommandId': '0b687ec4b2f490051a53d114bf64242580c32f28:1:2'}
+score: 0.9122035503387451
+{'astCommand': {'children': [], 'type': 'SC-ECHO'},
+ 'astCommandId': '46146eb0c2ad8dccdf2df8ee87c89605a3180a3d:7:7'}
+score: 0.9120946526527405
+{'astCommand': {'children': [{'children': [{'children': [{'children': [],
+                                                          'type': 'BASH-LITERAL'}],
+                                            'type': 'SC-ECHO-ITEM'}],
+                              'type': 'SC-ECHO-ITEMS'}],
+                'type': 'SC-ECHO'},
+ 'astCommandId': '4321c86234de9bc95414a1854b42a9f6de5684c4:5:2'}
+score: 0.9111171960830688
+{'astCommand': {'children': [{'children': [{'children': [{'children': [{'children': [],
+                                                                        'type': 'ABS-SINGLE-SPACE'}],
+                                                          'type': 'BASH-LITERAL'}],
+                                            'type': 'SC-ECHO-ITEM'}],
+                              'type': 'SC-ECHO-ITEMS'}],
+                'type': 'SC-ECHO'},
+ 'astCommandId': '616399084921a46793ffdb124246560f5aec1365:6:15'}
+score: 0.9082188010215759
+{'astCommand': {'children': [{'children': [{'children': [{'children': [{'children': [],
+                                                                        'type': 'ABS-SINGLE-SPACE'}],
+                                                          'type': 'BASH-LITERAL'}],
+                                            'type': 'SC-ECHO-ITEM'}],
+                              'type': 'SC-ECHO-ITEMS'}],
+                'type': 'SC-ECHO'},
+ 'astCommandId': 'd2f9c0f45279cb6e06d2569450a20665db5f6f5b:1:2'}
+score: 0.9073321223258972
+{'astCommand': {'children': [], 'type': 'SC-ECHO'},
+ 'astCommandId': '1d93f626ec36379cf9edd71985595330e63e6c68:1:12'}
+
+
+
+{'children': [{'children': [{'children': [{'children': [],
+                                           'type': 'ABS-MAYBE-PATH'},
+                                          {'children': [],
+                                           'type': 'ABS-MAYBE-SRC-DIR'},
+                                          {'children': [],
+                                           'type': 'ABS-PATH-ABSOLUTE'},
+                                          {'children': [],
+                                           'type': 'ABS-USR-SRC-DIR'}],
+                             'type': 'BASH-LITERAL'}],
+               'type': 'SC-CD-PATH'}],
+ 'type': 'SC-CD'}
+score: 0.8668278455734253
+{'astCommand': {'children': [{'children': [{'children': [{'children': [],
+                                                          'type': 'ABS-MAYBE-PATH'},
+                                                         {'children': [],
+                                                          'type': 'ABS-MAYBE-SRC-DIR'},
+                                                         {'children': [],
+                                                          'type': 'ABS-PATH-ABSOLUTE'},
+                                                         {'children': [],
+                                                          'type': 'ABS-USR-SRC-DIR'}],
+                                            'type': 'BASH-LITERAL'}],
+                              'type': 'SC-CD-PATH'}],
+                'type': 'SC-CD'},
+ 'astCommandId': '4321c86234de9bc95414a1854b42a9f6de5684c4:6:5'}
+score: 0.8506730794906616
+{'astCommand': {'children': [{'children': [{'children': [{'children': [],
+                                                          'type': 'ABS-MAYBE-PATH'},
+                                                         {'children': [],
+                                                          'type': 'ABS-MAYBE-SRC-DIR'},
+                                                         {'children': [],
+                                                          'type': 'ABS-PATH-ABSOLUTE'},
+                                                         {'children': [],
+                                                          'type': 'ABS-USR-SRC-DIR'}],
+                                            'type': 'BASH-LITERAL'}],
+                              'type': 'SC-CD-PATH'}],
+                'type': 'SC-CD'},
+ 'astCommandId': 'c8f7e39cc87328ebd91d63dbc764ad7d73be3be9:3:3'}
+score: 0.844986617565155
+{'astCommand': {'children': [{'children': [{'children': [{'children': [],
+                                                          'type': 'ABS-MAYBE-PATH'},
+                                                         {'children': [],
+                                                          'type': 'ABS-MAYBE-SRC-DIR'},
+                                                         {'children': [],
+                                                          'type': 'ABS-PATH-ABSOLUTE'},
+                                                         {'children': [],
+                                                          'type': 'ABS-USR-SRC-DIR'}],
+                                            'type': 'BASH-LITERAL'}],
+                              'type': 'SC-CD-PATH'}],
+                'type': 'SC-CD'},
+ 'astCommandId': '1ef536c220375eba0b89b38c51b7424dd2506dee:1:13'}
+score: 0.8425165414810181
+{'astCommand': {'children': [{'children': [{'children': [{'children': [],
+                                                          'type': 'ABS-MAYBE-PATH'},
+                                                         {'children': [],
+                                                          'type': 'ABS-MAYBE-SRC-DIR'},
+                                                         {'children': [],
+                                                          'type': 'ABS-PATH-ABSOLUTE'},
+                                                         {'children': [],
+                                                          'type': 'ABS-USR-SRC-DIR'}],
+                                            'type': 'BASH-LITERAL'}],
+                              'type': 'SC-CD-PATH'}],
+                'type': 'SC-CD'},
+ 'astCommandId': '2822cecdbb823c5ad6be5072deb79c14eb5959fb:1:14'}
+score: 0.8370093703269958
+{'astCommand': {'children': [{'children': [{'children': [{'children': [],
+                                                          'type': 'ABS-MAYBE-PATH'},
+                                                         {'children': [],
+                                                          'type': 'ABS-MAYBE-SRC-DIR'},
+                                                         {'children': [],
+                                                          'type': 'ABS-PATH-ABSOLUTE'},
+                                                         {'children': [],
+                                                          'type': 'ABS-USR-SRC-DIR'}],
+                                            'type': 'BASH-LITERAL'}],
+                              'type': 'SC-CD-PATH'}],
+                'type': 'SC-CD'},
+ 'astCommandId': '958b2e8c85c98087d6898aff82c1180df4c59d9a:2:9'}
+score: 0.8261694312095642
+{'astCommand': {'children': [{'children': [{'children': [{'children': [],
+                                                          'type': 'ABS-MAYBE-PATH'},
+                                                         {'children': [],
+                                                          'type': 'ABS-MAYBE-SRC-DIR'},
+                                                         {'children': [],
+                                                          'type': 'ABS-PATH-ABSOLUTE'},
+                                                         {'children': [],
+                                                          'type': 'ABS-USR-SRC-DIR'}],
+                                            'type': 'BASH-LITERAL'}],
+                              'type': 'SC-CD-PATH'}],
+                'type': 'SC-CD'},
+ 'astCommandId': '7f4e32b8c45332a0eca61f45ef38638feb8c7f2a:4:3'}
+score: 0.8166386485099792
+{'astCommand': {'children': [{'children': [{'children': [{'children': [],
+                                                          'type': 'ABS-MAYBE-PATH'},
+                                                         {'children': [],
+                                                          'type': 'ABS-MAYBE-SRC-DIR'},
+                                                         {'children': [],
+                                                          'type': 'ABS-PATH-ABSOLUTE'},
+                                                         {'children': [],
+                                                          'type': 'ABS-USR-SRC-DIR'}],
+                                            'type': 'BASH-LITERAL'}],
+                              'type': 'SC-CD-PATH'}],
+                'type': 'SC-CD'},
+ 'astCommandId': '616399084921a46793ffdb124246560f5aec1365:4:15'}
+score: 0.808512806892395
+{'astCommand': {'children': [{'children': [{'children': [{'children': [],
+                                                          'type': 'ABS-MAYBE-PATH'},
+                                                         {'children': [],
+                                                          'type': 'ABS-MAYBE-SRC-DIR'},
+                                                         {'children': [],
+                                                          'type': 'ABS-PATH-ABSOLUTE'},
+                                                         {'children': [],
+                                                          'type': 'ABS-USR-SRC-DIR'}],
+                                            'type': 'BASH-LITERAL'}],
+                              'type': 'SC-CD-PATH'}],
+                'type': 'SC-CD'},
+ 'astCommandId': 'f2c4ef8ee1edbe763faea5aa121e00b5d4ff7e5a:3:5'}
+score: 0.8018345236778259
+{'astCommand': {'children': [{'children': [{'children': [{'children': [],
+                                                          'type': 'ABS-MAYBE-PATH'},
+                                                         {'children': [],
+                                                          'type': 'ABS-MAYBE-SRC-DIR'},
+                                                         {'children': [],
+                                                          'type': 'ABS-PATH-ABSOLUTE'},
+                                                         {'children': [],
+                                                          'type': 'ABS-USR-SRC-DIR'}],
+                                            'type': 'BASH-LITERAL'}],
+                              'type': 'SC-CD-PATH'}],
+                'type': 'SC-CD'},
+ 'astCommandId': '196faae5a123e0619ad20e6ca4712f41a47f171e:1:10'}
+score: 0.8009547591209412
+{'astCommand': {'children': [{'children': [{'children': [{'children': [],
+                                                          'type': 'ABS-MAYBE-PATH'},
+                                                         {'children': [],
+                                                          'type': 'ABS-MAYBE-SRC-DIR'},
+                                                         {'children': [],
+                                                          'type': 'ABS-PATH-ABSOLUTE'},
+                                                         {'children': [],
+                                                          'type': 'ABS-USR-SRC-DIR'}],
+                                            'type': 'BASH-LITERAL'}],
+                              'type': 'SC-CD-PATH'}],
+                'type': 'SC-CD'},
+ 'astCommandId': '616399084921a46793ffdb124246560f5aec1365:3:5'}

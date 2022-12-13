@@ -1,0 +1,23 @@
+[
+    {
+        "astCommandId": "6c95188c046b6726f8b562c40e619aab93459685:0:0",
+        "astCommand": {
+            "type": "SC-APK-ADD",
+            "children": [
+                {
+                    "children": [],
+                    "type": "SC-APK-F-NO-CACHE"
+                },
+                {
+                    "type": "SC-APK-PACKAGES",
+                    "children": [
+                        {
+                            "children": [],
+                            "type": "SC-APK-PACKAGE:BASH"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]

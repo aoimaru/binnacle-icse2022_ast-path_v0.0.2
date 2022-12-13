@@ -1,0 +1,57 @@
+[
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-IMAGE-NAME:scratch"
+            }
+        ],
+        "type": "DOCKER-FROM"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "type": "ABS-MAYBE-PATH",
+                                "children": []
+                            },
+                            {
+                                "type": "ABS-PATH-ABSOLUTE",
+                                "children": []
+                            }
+                        ],
+                        "type": "DOCKER-PATH"
+                    }
+                ],
+                "type": "DOCKER-ADD-TARGET"
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "type": "ABS-EXTENSION-TAR",
+                                "children": []
+                            }
+                        ],
+                        "type": "DOCKER-PATH"
+                    }
+                ],
+                "type": "DOCKER-ADD-SOURCE"
+            }
+        ],
+        "type": "DOCKER-ADD"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-CMD-ARG"
+            }
+        ],
+        "type": "DOCKER-CMD"
+    }
+]

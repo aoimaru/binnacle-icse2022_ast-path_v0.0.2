@@ -1,0 +1,61 @@
+[
+    {
+        "astCommandId": "dnsmasq:0:0",
+        "astCommand": {
+            "type": "SC-SET",
+            "children": [
+                {
+                    "type": "SC-SET-F-E",
+                    "children": []
+                },
+                {
+                    "type": "SC-SET-F-X",
+                    "children": []
+                }
+            ]
+        }
+    },
+    {
+        "astCommandId": "dnsmasq:0:1",
+        "astCommand": {
+            "type": "SC-APK-ADD",
+            "children": [
+                {
+                    "type": "SC-APK-F-NO-CACHE",
+                    "children": []
+                },
+                {
+                    "type": "SC-APK-PACKAGES",
+                    "children": [
+                        {
+                            "type": "SC-APK-PACKAGE:DNSMASQ-DNSSEC",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "astCommandId": "dnsmasq:0:2",
+        "astCommand": {
+            "type": "SC-ECHO",
+            "children": [
+                {
+                    "type": "SC-ECHO-ITEMS",
+                    "children": [
+                        {
+                            "type": "SC-ECHO-ITEM",
+                            "children": [
+                                {
+                                    "type": "BASH-LITERAL",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]

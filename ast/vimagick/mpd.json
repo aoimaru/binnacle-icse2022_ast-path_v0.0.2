@@ -1,0 +1,51 @@
+[
+    {
+        "astCommandId": "mpd:0:0",
+        "astCommand": {
+            "type": "SC-SET",
+            "children": [
+                {
+                    "type": "SC-SET-F-E",
+                    "children": []
+                },
+                {
+                    "type": "SC-SET-F-X",
+                    "children": []
+                }
+            ]
+        }
+    },
+    {
+        "astCommandId": "mpd:0:1",
+        "astCommand": {
+            "type": "SC-APK-ADD",
+            "children": [
+                {
+                    "type": "SC-APK-F-NO-CACHE",
+                    "children": []
+                },
+                {
+                    "type": "SC-APK-PACKAGES",
+                    "children": [
+                        {
+                            "type": "SC-APK-PACKAGE:MPC",
+                            "children": []
+                        },
+                        {
+                            "type": "SC-APK-PACKAGE:MPD",
+                            "children": []
+                        },
+                        {
+                            "type": "SC-APK-PACKAGE:NCMPC",
+                            "children": []
+                        },
+                        {
+                            "type": "SC-APK-PACKAGE:NCMPCPP",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]

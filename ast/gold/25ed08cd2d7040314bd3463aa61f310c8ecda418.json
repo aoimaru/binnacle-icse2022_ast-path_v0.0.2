@@ -1,0 +1,27 @@
+[
+    {
+        "astCommandId": "25ed08cd2d7040314bd3463aa61f310c8ecda418:0:0",
+        "astCommand": {
+            "type": "SC-APK-ADD",
+            "children": [
+                {
+                    "children": [],
+                    "type": "SC-APK-F-NO-CACHE"
+                },
+                {
+                    "type": "SC-APK-PACKAGES",
+                    "children": [
+                        {
+                            "children": [],
+                            "type": "SC-APK-PACKAGE:GIT"
+                        },
+                        {
+                            "children": [],
+                            "type": "SC-APK-PACKAGE:OPENSSH-CLIENT"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]

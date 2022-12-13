@@ -1,0 +1,11 @@
+[
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-IMAGE-NAME:%%UPSTREAM_IMAGE_DIGEST%%"
+            }
+        ],
+        "type": "DOCKER-FROM"
+    }
+]

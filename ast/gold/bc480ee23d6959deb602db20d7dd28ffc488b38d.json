@@ -1,0 +1,28 @@
+[
+    {
+        "astCommandId": "bc480ee23d6959deb602db20d7dd28ffc488b38d:2:0",
+        "astCommand": {
+            "type": "SC-PIP-INSTALL",
+            "children": [
+                {
+                    "children": [],
+                    "type": "SC-PIP-F-NO-CACHE-DIR"
+                },
+                {
+                    "type": "SC-PIP-TARGETS",
+                    "children": [
+                        {
+                            "type": "SC-PIP-TARGET",
+                            "children": [
+                                {
+                                    "children": [],
+                                    "type": "BASH-LITERAL"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]

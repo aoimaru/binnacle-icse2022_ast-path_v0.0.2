@@ -1,0 +1,19 @@
+[
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-IMAGE-NAME:elasticsearch"
+            },
+            {
+                "children": [],
+                "type": "DOCKER-IMAGE-REPO:docker.elastic.co"
+            },
+            {
+                "children": [],
+                "type": "DOCKER-IMAGE-TAG:974aba875f1ec333f0c2ac7dee1e74d70c5813b039b3a225eb2bf287d4aa5911"
+            }
+        ],
+        "type": "DOCKER-FROM"
+    }
+]

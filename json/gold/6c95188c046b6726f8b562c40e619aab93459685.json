@@ -1,0 +1,75 @@
+[
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-IMAGE-NAME:postgres"
+            },
+            {
+                "children": [],
+                "type": "DOCKER-IMAGE-TAG:alpine"
+            }
+        ],
+        "type": "DOCKER-FROM"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "type": "SC-APK-F-NO-CACHE"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "type": "SC-APK-PACKAGE:BASH"
+                                    }
+                                ],
+                                "type": "SC-APK-PACKAGES"
+                            }
+                        ],
+                        "type": "SC-APK-ADD"
+                    }
+                ],
+                "type": "BASH-SCRIPT"
+            }
+        ],
+        "type": "DOCKER-RUN"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "type": "ABS-MAYBE-PATH",
+                                "children": []
+                            },
+                            {
+                                "type": "ABS-PATH-ABSOLUTE",
+                                "children": []
+                            }
+                        ],
+                        "type": "DOCKER-PATH"
+                    }
+                ],
+                "type": "DOCKER-COPY-TARGET"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "type": "DOCKER-PATH"
+                    }
+                ],
+                "type": "DOCKER-COPY-SOURCE"
+            }
+        ],
+        "type": "DOCKER-COPY"
+    }
+]

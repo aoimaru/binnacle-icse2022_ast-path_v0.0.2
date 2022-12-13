@@ -1,0 +1,78 @@
+[
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-IMAGE-NAME:nanoserver"
+            },
+            {
+                "children": [],
+                "type": "DOCKER-IMAGE-REPO:mcr.microsoft.com"
+            },
+            {
+                "children": [],
+                "type": "DOCKER-IMAGE-TAG:1803"
+            }
+        ],
+        "type": "DOCKER-FROM"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "type": "ABS-MAYBE-PATH",
+                                "children": []
+                            }
+                        ],
+                        "type": "DOCKER-PATH"
+                    }
+                ],
+                "type": "DOCKER-COPY-TARGET"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "type": "DOCKER-PATH"
+                    }
+                ],
+                "type": "DOCKER-COPY-SOURCE"
+            }
+        ],
+        "type": "DOCKER-COPY"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-CMD-ARG"
+            },
+            {
+                "children": [
+                    {
+                        "type": "ABS-MAYBE-PATH",
+                        "children": []
+                    },
+                    {
+                        "type": "ABS-PATH-ABSOLUTE",
+                        "children": []
+                    }
+                ],
+                "type": "DOCKER-CMD-ARG"
+            },
+            {
+                "children": [
+                    {
+                        "type": "ABS-SINGLE-SPACE",
+                        "children": []
+                    }
+                ],
+                "type": "DOCKER-CMD-ARG"
+            }
+        ],
+        "type": "DOCKER-CMD"
+    }
+]

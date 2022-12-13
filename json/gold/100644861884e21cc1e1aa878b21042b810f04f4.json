@@ -1,0 +1,483 @@
+[
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-IMAGE-NAME:buildpack-deps"
+            }
+        ],
+        "type": "DOCKER-FROM"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "type": "SC-APT-GET-UPDATE"
+                                    }
+                                ],
+                                "type": "BASH-AND-MEM"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "type": "SC-APT-GET-F-YES"
+                                            },
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [],
+                                                        "type": "SC-APT-GET-PACKAGE:CA-CERTIFICATES"
+                                                    },
+                                                    {
+                                                        "children": [],
+                                                        "type": "SC-APT-GET-PACKAGE:CURL"
+                                                    }
+                                                ],
+                                                "type": "SC-APT-GET-PACKAGES"
+                                            }
+                                        ],
+                                        "type": "SC-APT-GET-INSTALL"
+                                    }
+                                ],
+                                "type": "BASH-AND-MEM"
+                            }
+                        ],
+                        "type": "BASH-AND-IF"
+                    }
+                ],
+                "type": "BASH-SCRIPT"
+            }
+        ],
+        "type": "DOCKER-RUN"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "type": "ABS-PROBABLY-URL",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "ABS-URL-POOL",
+                                                "children": []
+                                            }
+                                        ],
+                                        "type": "BASH-LITERAL"
+                                    }
+                                ],
+                                "type": "SC-GPG-KEYSERVER"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "type": "BASH-LITERAL"
+                                            }
+                                        ],
+                                        "type": "SC-GPG-RECV-KEY"
+                                    }
+                                ],
+                                "type": "SC-GPG-RECV-KEYS"
+                            }
+                        ],
+                        "type": "SC-GPG"
+                    }
+                ],
+                "type": "BASH-SCRIPT"
+            }
+        ],
+        "type": "DOCKER-RUN"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-NAME:NODE_VERSION"
+            },
+            {
+                "children": [],
+                "type": "DOCKER-LITERAL"
+            }
+        ],
+        "type": "DOCKER-ENV"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-NAME:NPM_VERSION"
+            },
+            {
+                "children": [],
+                "type": "DOCKER-LITERAL"
+            }
+        ],
+        "type": "DOCKER-ENV"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "type": "SC-CURL-F-SHOW-ERROR"
+                                            },
+                                            {
+                                                "children": [],
+                                                "type": "SC-CURL-F-LOCATION"
+                                            },
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "children": [
+                                                                    {
+                                                                        "type": "ABS-PROBABLY-URL",
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "type": "ABS-URL-PROTOCOL-HTTP",
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "type": "ABS-EXTENSION-TAR",
+                                                                        "children": []
+                                                                    }
+                                                                ],
+                                                                "type": "BASH-LITERAL"
+                                                            }
+                                                        ],
+                                                        "type": "SC-CURL-REMOTE-NAME"
+                                                    }
+                                                ],
+                                                "type": "SC-CURL-REMOTE-NAMES"
+                                            }
+                                        ],
+                                        "type": "SC-CURL"
+                                    }
+                                ],
+                                "type": "BASH-AND-MEM"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "type": "SC-CURL-F-SHOW-ERROR"
+                                            },
+                                            {
+                                                "children": [],
+                                                "type": "SC-CURL-F-LOCATION"
+                                            },
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "children": [
+                                                                    {
+                                                                        "type": "ABS-PROBABLY-URL",
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "type": "ABS-URL-PROTOCOL-HTTP",
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "type": "ABS-EXTENSION-ASC",
+                                                                        "children": []
+                                                                    }
+                                                                ],
+                                                                "type": "BASH-LITERAL"
+                                                            }
+                                                        ],
+                                                        "type": "SC-CURL-REMOTE-NAME"
+                                                    }
+                                                ],
+                                                "type": "SC-CURL-REMOTE-NAMES"
+                                            }
+                                        ],
+                                        "type": "SC-CURL"
+                                    }
+                                ],
+                                "type": "BASH-AND-MEM"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "children": [
+                                                                    {
+                                                                        "type": "ABS-EXTENSION-ASC",
+                                                                        "children": []
+                                                                    }
+                                                                ],
+                                                                "type": "BASH-LITERAL"
+                                                            }
+                                                        ],
+                                                        "type": "SC-GPG-VERIFY"
+                                                    }
+                                                ],
+                                                "type": "SC-GPG-VERIFYS"
+                                            }
+                                        ],
+                                        "type": "SC-GPG"
+                                    }
+                                ],
+                                "type": "BASH-AND-MEM"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "children": [
+                                                                    {
+                                                                        "type": "ABS-SINGLE-SPACE",
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "type": "ABS-EXTENSION-TAR",
+                                                                        "children": []
+                                                                    }
+                                                                ],
+                                                                "type": "BASH-LITERAL"
+                                                            }
+                                                        ],
+                                                        "type": "SC-GREP-PATTERN"
+                                                    },
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "children": [
+                                                                    {
+                                                                        "children": [
+                                                                            {
+                                                                                "type": "ABS-EXTENSION-ASC",
+                                                                                "children": []
+                                                                            }
+                                                                        ],
+                                                                        "type": "BASH-LITERAL"
+                                                                    }
+                                                                ],
+                                                                "type": "SC-GREP-PATH"
+                                                            }
+                                                        ],
+                                                        "type": "SC-GREP-PATHS"
+                                                    }
+                                                ],
+                                                "type": "SC-GREP"
+                                            },
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [],
+                                                        "type": "SC-SHA-256-SUM-F-CHECK"
+                                                    }
+                                                ],
+                                                "type": "SC-SHA-256-SUM"
+                                            }
+                                        ],
+                                        "type": "BASH-PIPELINE"
+                                    }
+                                ],
+                                "type": "BASH-AND-MEM"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "type": "SC-TAR-X"
+                                            },
+                                            {
+                                                "children": [],
+                                                "type": "SC-TAR-Z"
+                                            },
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "children": [
+                                                                    {
+                                                                        "type": "ABS-EXTENSION-TAR",
+                                                                        "children": []
+                                                                    }
+                                                                ],
+                                                                "type": "BASH-LITERAL"
+                                                            }
+                                                        ],
+                                                        "type": "BASH-PATH"
+                                                    }
+                                                ],
+                                                "type": "SC-TAR-FILE"
+                                            },
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "children": [
+                                                                    {
+                                                                        "type": "ABS-MAYBE-PATH",
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "type": "ABS-PATH-ABSOLUTE",
+                                                                        "children": []
+                                                                    }
+                                                                ],
+                                                                "type": "BASH-LITERAL"
+                                                            }
+                                                        ],
+                                                        "type": "BASH-PATH"
+                                                    }
+                                                ],
+                                                "type": "SC-TAR-DIRECTORY"
+                                            },
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [],
+                                                        "type": "BASH-LITERAL"
+                                                    }
+                                                ],
+                                                "type": "SC-TAR-STRIP-COMPONENTS"
+                                            }
+                                        ],
+                                        "type": "SC-TAR"
+                                    }
+                                ],
+                                "type": "BASH-AND-MEM"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "children": [
+                                                                    {
+                                                                        "type": "ABS-EXTENSION-TAR",
+                                                                        "children": []
+                                                                    }
+                                                                ],
+                                                                "type": "BASH-LITERAL"
+                                                            }
+                                                        ],
+                                                        "type": "SC-RM-PATH"
+                                                    },
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "children": [
+                                                                    {
+                                                                        "type": "ABS-EXTENSION-ASC",
+                                                                        "children": []
+                                                                    }
+                                                                ],
+                                                                "type": "BASH-LITERAL"
+                                                            }
+                                                        ],
+                                                        "type": "SC-RM-PATH"
+                                                    }
+                                                ],
+                                                "type": "SC-RM-PATHS"
+                                            }
+                                        ],
+                                        "type": "SC-RM"
+                                    }
+                                ],
+                                "type": "BASH-AND-MEM"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "type": "SC-NPM-F-GLOBAL"
+                                            },
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [],
+                                                        "type": "SC-NPM-PACKAGE"
+                                                    }
+                                                ],
+                                                "type": "SC-NPM-PACKAGES"
+                                            }
+                                        ],
+                                        "type": "SC-NPM-INSTALL"
+                                    }
+                                ],
+                                "type": "BASH-AND-MEM"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "type": "SC-NPM-CACHE-CLEAN"
+                                    }
+                                ],
+                                "type": "BASH-AND-MEM"
+                            }
+                        ],
+                        "type": "BASH-AND-IF"
+                    }
+                ],
+                "type": "BASH-SCRIPT"
+            }
+        ],
+        "type": "DOCKER-RUN"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-CMD-ARG"
+            }
+        ],
+        "type": "DOCKER-CMD"
+    }
+]

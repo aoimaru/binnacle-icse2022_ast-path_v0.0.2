@@ -1,0 +1,134 @@
+[
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-IMAGE-NAME:windowsservercore"
+            },
+            {
+                "children": [],
+                "type": "DOCKER-IMAGE-REPO:microsoft"
+            },
+            {
+                "children": [],
+                "type": "DOCKER-IMAGE-TAG:placeholder"
+            }
+        ],
+        "type": "DOCKER-FROM"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-SHELL-EXECUTABLE"
+            },
+            {
+                "children": [],
+                "type": "DOCKER-SHELL-ARG"
+            },
+            {
+                "children": [
+                    {
+                        "type": "ABS-SINGLE-SPACE",
+                        "children": []
+                    }
+                ],
+                "type": "DOCKER-SHELL-ARG"
+            }
+        ],
+        "type": "DOCKER-SHELL"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-NAME:MONGO_VERSION"
+            },
+            {
+                "children": [],
+                "type": "DOCKER-LITERAL"
+            }
+        ],
+        "type": "DOCKER-ENV"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-NAME:MONGO_DOWNLOAD_URL"
+            },
+            {
+                "children": [],
+                "type": "DOCKER-LITERAL"
+            }
+        ],
+        "type": "DOCKER-ENV"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-NAME:MONGO_DOWNLOAD_SHA256"
+            },
+            {
+                "children": [],
+                "type": "DOCKER-LITERAL"
+            }
+        ],
+        "type": "DOCKER-ENV"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "type": "UNKNOWN"
+                    }
+                ],
+                "type": "BASH-SCRIPT"
+            }
+        ],
+        "type": "DOCKER-RUN"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-PATH"
+            }
+        ],
+        "type": "DOCKER-VOLUME"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-PATH"
+            }
+        ],
+        "type": "DOCKER-VOLUME"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-PORT:27017"
+            }
+        ],
+        "type": "DOCKER-EXPOSE"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-CMD-ARG"
+            },
+            {
+                "children": [],
+                "type": "DOCKER-CMD-ARG"
+            }
+        ],
+        "type": "DOCKER-CMD"
+    }
+]

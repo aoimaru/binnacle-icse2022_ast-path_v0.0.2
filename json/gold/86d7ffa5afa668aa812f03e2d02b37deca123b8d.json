@@ -1,0 +1,47 @@
+[
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-IMAGE-NAME:docker"
+            },
+            {
+                "children": [],
+                "type": "DOCKER-IMAGE-TAG:18.09-rc"
+            }
+        ],
+        "type": "DOCKER-FROM"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "type": "SC-APK-F-NO-CACHE"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "type": "SC-APK-PACKAGE:GIT"
+                                    },
+                                    {
+                                        "children": [],
+                                        "type": "SC-APK-PACKAGE:OPENSSH-CLIENT"
+                                    }
+                                ],
+                                "type": "SC-APK-PACKAGES"
+                            }
+                        ],
+                        "type": "SC-APK-ADD"
+                    }
+                ],
+                "type": "BASH-SCRIPT"
+            }
+        ],
+        "type": "DOCKER-RUN"
+    }
+]

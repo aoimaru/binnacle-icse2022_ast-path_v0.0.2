@@ -1,0 +1,193 @@
+[
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-IMAGE-NAME:windowsservercore"
+            },
+            {
+                "children": [],
+                "type": "DOCKER-IMAGE-REPO:microsoft"
+            },
+            {
+                "children": [],
+                "type": "DOCKER-IMAGE-TAG:ltsc2016"
+            }
+        ],
+        "type": "DOCKER-FROM"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-SHELL-EXECUTABLE"
+            },
+            {
+                "children": [],
+                "type": "DOCKER-SHELL-ARG"
+            },
+            {
+                "children": [
+                    {
+                        "type": "ABS-SINGLE-SPACE",
+                        "children": []
+                    }
+                ],
+                "type": "DOCKER-SHELL-ARG"
+            }
+        ],
+        "type": "DOCKER-SHELL"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-NAME:JULIA_VERSION"
+            },
+            {
+                "children": [],
+                "type": "DOCKER-LITERAL"
+            }
+        ],
+        "type": "DOCKER-ENV"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-NAME:JULIA_SHA256"
+            },
+            {
+                "children": [],
+                "type": "DOCKER-LITERAL"
+            }
+        ],
+        "type": "DOCKER-ENV"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "type": "BASH-VARIABLE:url"
+                                    }
+                                ],
+                                "type": "BASH-ASSIGN-LHS"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "type": "ABS-PROBABLY-URL",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "ABS-URL-PROTOCOL-HTTPS",
+                                                        "children": []
+                                                    }
+                                                ],
+                                                "type": "BASH-SINGLE-QUOTED"
+                                            },
+                                            {
+                                                "children": [],
+                                                "type": "BASH-LITERAL"
+                                            },
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [],
+                                                        "type": "BASH-VARIABLE:env"
+                                                    },
+                                                    {
+                                                        "children": [],
+                                                        "type": "BASH-LITERAL"
+                                                    }
+                                                ],
+                                                "type": "BASH-CONCAT"
+                                            },
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "children": [],
+                                                                "type": "BASH-VARIABLE:env"
+                                                            },
+                                                            {
+                                                                "children": [],
+                                                                "type": "BASH-LITERAL"
+                                                            }
+                                                        ],
+                                                        "type": "BASH-CONCAT"
+                                                    },
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "children": [
+                                                                    {
+                                                                        "type": "ABS-MAYBE-PATH",
+                                                                        "children": []
+                                                                    }
+                                                                ],
+                                                                "type": "BASH-SINGLE-QUOTED"
+                                                            }
+                                                        ],
+                                                        "type": "BASH-ARRAY"
+                                                    },
+                                                    {
+                                                        "children": [],
+                                                        "type": "BASH-GLOB"
+                                                    },
+                                                    {
+                                                        "children": [],
+                                                        "type": "BASH-LITERAL"
+                                                    },
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "type": "ABS-MAYBE-PATH",
+                                                                "children": []
+                                                            }
+                                                        ],
+                                                        "type": "BASH-SINGLE-QUOTED"
+                                                    }
+                                                ],
+                                                "type": "BASH-ARRAY"
+                                            }
+                                        ],
+                                        "type": "BASH-ARRAY"
+                                    }
+                                ],
+                                "type": "BASH-ASSIGN-RHS"
+                            }
+                        ],
+                        "type": "BASH-ASSIGN"
+                    },
+                    {
+                        "children": [],
+                        "type": "UNKNOWN"
+                    }
+                ],
+                "type": "BASH-SCRIPT"
+            }
+        ],
+        "type": "DOCKER-RUN"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-CMD-ARG"
+            }
+        ],
+        "type": "DOCKER-CMD"
+    }
+]

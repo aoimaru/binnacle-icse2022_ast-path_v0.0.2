@@ -1,0 +1,104 @@
+[
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-IMAGE-NAME:node"
+            },
+            {
+                "children": [],
+                "type": "DOCKER-IMAGE-TAG:0.10.35"
+            }
+        ],
+        "type": "DOCKER-FROM"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "type": "SC-MKDIR-F-PARENTS"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "type": "ABS-MAYBE-PATH",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "ABS-PATH-ABSOLUTE",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "ABS-MAYBE-SRC-DIR",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "ABS-USR-SRC-DIR",
+                                                        "children": []
+                                                    }
+                                                ],
+                                                "type": "BASH-LITERAL"
+                                            }
+                                        ],
+                                        "type": "SC-MKDIR-PATH"
+                                    }
+                                ],
+                                "type": "SC-MKDIR-PATHS"
+                            }
+                        ],
+                        "type": "SC-MKDIR"
+                    }
+                ],
+                "type": "BASH-SCRIPT"
+            }
+        ],
+        "type": "DOCKER-RUN"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "type": "ABS-MAYBE-PATH",
+                        "children": []
+                    },
+                    {
+                        "type": "ABS-PATH-ABSOLUTE",
+                        "children": []
+                    },
+                    {
+                        "type": "ABS-MAYBE-SRC-DIR",
+                        "children": []
+                    },
+                    {
+                        "type": "ABS-USR-SRC-DIR",
+                        "children": []
+                    }
+                ],
+                "type": "DOCKER-PATH"
+            }
+        ],
+        "type": "DOCKER-WORKDIR"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-CMD-ARG"
+            },
+            {
+                "children": [],
+                "type": "DOCKER-CMD-ARG"
+            }
+        ],
+        "type": "DOCKER-CMD"
+    }
+]
